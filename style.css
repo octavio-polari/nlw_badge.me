@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* BODY */
+
+html, body{
+    height: 100%;
+    color: white;
+}
+
+body{
+    background: url(images/background.svg);
+    background-repeat: none;
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+}
+
+body ul {
+    flex-direction: row;
+}
+
+
+/* MAIN */
+
+main {
+    width: 375px;
+    height: 812px;
+}
+
+.content {
+     max-width: 250px;
+    margin: auto;
+    text-align: center; 
+}
+
+.avatar {
+    width: 10rem;
+    margin: 11.5rem auto 0;
+    position: relative;
+}
+
+.avatar span {
+    position: absolute;
+    top: -15px;
+    z-index: 1;
+}
+
+.avatar > img {
+    width: 10rem;
+    height: 11.5rem;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+
+/* TEXTO */
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin-top: 1.5rem;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+    margin-top: 0.25rem;
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SOCIAL MEDIA */
+
+ul {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+ul ul {
+    position: relative;
+    bottom: 48px;
+}
+
+ul img {
+    border-radius: 25%;
+}
+
