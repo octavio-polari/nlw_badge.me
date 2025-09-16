@@ -1,7 +1,7 @@
 const linksSM = {
   instagram: "octavio_polari",
   twitter: "brazfute",
-  github: "tavio-boo",
+  github: "octavio-polari",
 }
 
 function changeSMLinks() {
@@ -29,4 +29,5 @@ function getGitUserInfo() {
 }
 
 getGitUserInfo()
+
 
